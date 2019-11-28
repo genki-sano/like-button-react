@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.container {
+  font-family: "helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif";
+  font-size: 11px;
+}
+.like {
+  display: inline-block;
+  background: #3b5998;
+  border: 1px solid #3b5998;
+  padding: 0px 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  height: 20px;
+  line-height: 20px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.like:hover {
+  background: #4267b2;
+}
+.counter {
+  display: inline-block;
+  background: #fafafa;
+  border: 1px solid #aaa;
+  padding: 0px 8px;
+  border-radius: 2px;
+  margin-left: 8px;
+  height: 20px;
+  line-height: 20px
+}
+.counter > span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #fafafa;
+  margin-left: -12px;
+  border-right: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-top: 6px;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
