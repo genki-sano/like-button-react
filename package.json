@@ -1,14 +1,15 @@
 {
   "name": "react-like-button",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple like button for React.",
   "scripts": {
     "build": "rm -rf dist/*.js && webpack",
     "watch": "rm -rf dist/*.js && webpack -w"
   },
   "keywords": [
-    "react"
+    "react",
+    "webpack",
+    "babel"
   ],
   "author": "genki-sano",
   "license": "MIT",
