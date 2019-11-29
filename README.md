@@ -9,7 +9,7 @@ A simple like button  for React.
 git clone https://github.com/genki-sano/like-button-react.git
 
 # change directory
-cd todo-list
+cd like-button-react
 
 # install dependencies
 npm i
